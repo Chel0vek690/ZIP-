@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    background-color: #413c3c;
+    border-radius: 10px;
+}
+  
+.logo {
+    margin-right: auto; 
+    color: antiquewhite;
+}
+  
+.title {
+    margin-right: auto;
+    cursor: pointer;
+    color: antiquewhite;
+}
+.login {
+    background-color: #0f0f0ff0; /* установите желаемый цвет фона кнопки */
+    color: antiquewhite; /* установите желаемый цвет текста кнопки */
+    border: none; /* удалите границу, если нужно */
+    padding: 10px 20px; /* установите желаемый отступ внутри кнопки */
+    border-radius: 5px; /* установите желаемый радиус скругления углов кнопки */
+    font-size: 16px; /* установите желаемый размер шрифта кнопки */
+    cursor: pointer; /* добавьте эффект при наведении курсора */
+}
+.login:hover {
+    background-color: #ff0000f0; /* измените цвет фона кнопки при наведении */
+    /* можно добавить другие эффекты при наведении, если нужно */
+  }
